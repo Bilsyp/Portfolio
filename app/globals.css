@@ -2,26 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
+@layer components {
+  .icon {
+    @apply hover:text-blue-500 hover:scale-105 duration-300 text-cyan-300;
   }
+  .btn {
+    @apply font-semibold hover:bg-gradient-to-r from-cyan-500 to-slate-600 duration-300 hover:scale-110 py-2 px-10 bg-cyan-500 text-white text-xl rounded-xl;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Poppins", sans-serif;
+}
+
+.box_shadow {
+  box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+.box {
+  box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+.boxs {
+  background-color: rgba(0, 0, 0, 0.8);
 }
