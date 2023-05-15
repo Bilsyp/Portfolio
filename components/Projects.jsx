@@ -8,7 +8,7 @@ function Projects() {
           {" "}
           Latest Project I have Created
         </h2>
-        <p className="leading-8 py-4 text-gray-600 text-md sm:text-lg md:text-2xl lg:text-3xl">
+        <p className="leading-8 py-4 text-gray-600 text-lg sm:text-xl md:text-2xl lg:text-3xl">
           I have created several websites such as{" "}
           <span className="text-cyan-500">landing pages</span>,
           <span className="text-cyan-500">e-commerce web apps</span> and others
@@ -28,6 +28,7 @@ function Projects() {
               to attract potential players and give them a sneak peek into the
               game's world.
             </p>
+            Hello World
           </div>
         </div>
 

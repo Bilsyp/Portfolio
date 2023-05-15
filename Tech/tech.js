@@ -1,6 +1,3 @@
-export const languages = [
-  {
-    language: "Javasript",
-    skill: "Abvance",
-  },
-];
+import { createContext } from "react";
+
+export const Theme = createContext("light");

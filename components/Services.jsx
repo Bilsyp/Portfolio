@@ -3,7 +3,7 @@ import React from "react";
 
 function Services() {
   return (
-    <section className="my-20 ">
+    <section className="my-20  ">
       <div className="md:text-center md:mx-auto p-3  max-w-2xl">
         <h2 className="text-3xl font-semibold md:text-3xl lg:text-5xl">
           Services I' offer
@@ -15,8 +15,8 @@ function Services() {
           work that meets your specific needs.
         </p>
       </div>
-      <div className="services mt-10 flex justify-center px-10 flex-col items-center gap-y-10 lg:flex-row lg:gap-x-10">
-        <div className="w-96 text-center p-3   h-96 rounded-xl box ">
+      <div className="services mt-10 flex  justify-center  px-10 flex-col items-center gap-y-10 lg:flex-row lg:gap-x-10">
+        <div className="md:w-96  w-[90%] serve text-center p-3   h-[400px] rounded-xl box ">
           <Image
             width={100}
             height={100}
@@ -25,15 +25,17 @@ function Services() {
             priority
             src={"/icons/code.jpg"}
           />
-          <h3 className="pt-8 md:text-xl lg:text-3xl  font-semibold">Code</h3>
-          <p className="leading-8 py-4 text-gray-600 text-lg  md:text-xl">
+          <h3 className="text-2xl pt-8 md:text-xl lg:text-3xl font-semibold">
+            Code
+          </h3>
+          <p className="leading-8 py-4 text-gray-600 text-md md:text-xl">
             I specialize in creating websites from scratch using various coding
             languages such as HTML, CSS, JavaScript, PHP, and others. Frameworks
             that I use include ReactJs, Nextjs.
           </p>
         </div>
 
-        <div className="w-96 text-center p-3 h-96 rounded-xl box ">
+        <div className="md:w-96  w-[90%] serve text-center p-3 h-[400px] rounded-xl box ">
           <Image
             width={100}
             height={100}
@@ -45,7 +47,7 @@ function Services() {
           <h3 className="text-2xl pt-8 md:text-xl lg:text-3xl font-semibold">
             Design
           </h3>
-          <p className="leading-8 py-4 text-gray-600 text-lg  md:text-xl ">
+          <p className="leading-8 py-4 text-gray-600 text-md  md:text-xl ">
             My website design services are customized to suit each client's
             specific needs. I work closely with my customers to understand their
             brand identity, target audience and design preferences to create a
@@ -53,7 +55,7 @@ function Services() {
           </p>
         </div>
 
-        <div className="w-96 text-center h-96 p-2 rounded-xl box ">
+        <div className="md:w-96  w-[90%] text-center h-[400px] p-2 rounded-xl box serve ">
           <Image
             width={100}
             height={100}
@@ -65,7 +67,7 @@ function Services() {
           <h3 className="text-2xl pt-8 md:text-xl lg:text-3xl font-semibold">
             consultancy
           </h3>
-          <p className="leading-8 py-4 text-gray-600 text-lg  md:text-xl ">
+          <p className="leading-8 py-4 text-gray-600 text-md  md:text-xl ">
             My web development consulting and troubleshooting services are
             designed to help you solve any website-related issues you may
             encounter. Whether you need assistance with website maintenance,

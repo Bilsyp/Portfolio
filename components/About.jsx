@@ -83,20 +83,20 @@ function About() {
           />
         </div>
       </div>
-      <div className="px-8 relative my-10 flex flex-wrap justify-center items-center  gap-5 ">
-        <button onClick={handleTech} className="btn">
+      <div className="px-8  my-10  grid grid-cols-2  md:grid-cols-3  lg:grid-cols-4  gap-10 ">
+        <button onClick={handleTech} className="btn ">
           Skills Tech
         </button>
-        <button onClick={handleFrameworkJs} className="btn">
+        <button onClick={handleFrameworkJs} className="btn ">
           Framework Project
         </button>
-        <button onClick={handleFrameworkCss} className="btn">
+        <button onClick={handleFrameworkCss} className="btn ">
           CSS Framework
         </button>
-        <button onClick={handlePackager} className="btn">
+        <button onClick={handlePackager} className="btn ">
           Package Manager
         </button>
-        <button onClick={handleTools} className="btn">
+        <button onClick={handleTools} className="btn ">
           Tools
         </button>
       </div>
@@ -107,7 +107,7 @@ function About() {
       {selected.FrameworkJs ? <FrameworkJs /> : null}
 
       <div
-        className="wave h-72 w-full bg-cover  bg-no-repeat"
+        className="wave h-72 w-full bg-cover mt-40  bg-no-repeat"
         style={{ backgroundImage: "url('/icons/backWave.svg')" }}
       ></div>
     </section>

@@ -3,7 +3,7 @@ import Image from "next/image";
 function Framework() {
   return (
     <div className="Tech p-8  gap-9 flex justify-around items-center flex-col md:flex-row flex-wrap gap-y-8  ">
-      <div className="rounded-xl group relative overflow-hidden flex-col-reverse py-4 px-5 box w-52 flex justify-center items-center  ">
+      <div className="skill group  ">
         <h1 className="py-2 text-xl font-Roboto font-thin md:text-2xl">
           BootStrap{" "}
         </h1>
@@ -20,7 +20,7 @@ function Framework() {
           </span>
         </div>
       </div>
-      <div className="rounded-xl group relative overflow-hidden flex-col-reverse py-4 px-5 box w-52 flex justify-center items-center  ">
+      <div className="skill group  ">
         <h1 className="py-2 text-xl font-Roboto font-thin md:text-2xl">
           Material UI
         </h1>
@@ -37,7 +37,7 @@ function Framework() {
           </span>
         </div>
       </div>
-      <div className="rounded-xl group relative overflow-hidden flex-col-reverse py-4 px-5 box w-52 flex justify-center items-center  ">
+      <div className="skill group  ">
         <h1 className="py-2 text-xl font-Roboto font-thin md:text-2xl">
           TailwindCss{" "}
         </h1>
@@ -54,7 +54,7 @@ function Framework() {
           </span>
         </div>
       </div>
-      <div className="rounded-xl group relative overflow-hidden flex-col-reverse py-4 px-5 box w-52 flex justify-center items-center  ">
+      <div className="skill group  ">
         <h1 className="py-2 text-xl font-Roboto font-thin md:text-2xl">
           Ant Design{" "}
         </h1>

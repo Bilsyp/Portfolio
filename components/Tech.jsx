@@ -3,7 +3,7 @@ import Image from "next/image";
 function Tech() {
   return (
     <div className="Tech p-8 flex justify-around items-center flex-col md:flex-row flex-wrap gap-y-8  ">
-      <div className="rounded-xl group relative overflow-hidden flex-col-reverse py-4 px-5 box w-52 flex justify-center items-center">
+      <div className="skill group ">
         <h1 className="py-2 text-xl font-Roboto font-thin md:text-2xl">
           HTML5{" "}
         </h1>
@@ -20,7 +20,7 @@ function Tech() {
           </span>
         </div>
       </div>
-      <div className="rounded-xl group relative overflow-hidden flex-col-reverse py-4 px-5 box w-52 flex justify-center items-center  ">
+      <div className="skill group ">
         <h1 className="py-2 text-xl font-Roboto font-thin md:text-2xl">
           Javascript
         </h1>
@@ -37,7 +37,7 @@ function Tech() {
           </span>
         </div>
       </div>{" "}
-      <div className="rounded-xl group relative overflow-hidden flex-col-reverse py-4 px-5 box w-52 flex justify-center items-center  ">
+      <div className="skill group  ">
         <h1 className="py-2 text-xl font-Roboto font-thin md:text-2xl">CSS3</h1>
         <Image
           src={"/Tech/css-icon.svg"}
@@ -52,7 +52,7 @@ function Tech() {
           </span>
         </div>
       </div>
-      <div className="rounded-xl group relative overflow-hidden flex-col-reverse py-4 px-5 box w-52 flex justify-center items-center  ">
+      <div className="skill group  ">
         <h1 className="py-2 text-xl font-Roboto font-thin md:text-2xl">
           Sass / Scss
         </h1>
@@ -69,7 +69,7 @@ function Tech() {
           </span>
         </div>
       </div>
-      <div className="rounded-xl group relative overflow-hidden flex-col-reverse py-4 px-5 box w-52 flex justify-center items-center  ">
+      <div className="skill group ">
         <h1 className="py-2 font-Roboto font-thin md:text-2xl text-xl">PHP</h1>
         <Image
           src={"/Tech/php-programming-language-icon.svg"}
@@ -84,7 +84,7 @@ function Tech() {
           </span>
         </div>
       </div>
-      <div className="rounded-xl group relative overflow-hidden flex-col-reverse py-4 px-5 box w-52 flex justify-center items-center  ">
+      <div className="skill group  ">
         <h1 className="py-2 font-Roboto font-thin md:text-2xl text-xl">
           Typescript
         </h1>
@@ -101,7 +101,7 @@ function Tech() {
           </span>
         </div>
       </div>
-      <div className="rounded-xl group relative overflow-hidden flex-col-reverse py-4 px-5 box w-52 flex justify-center items-center  ">
+      <div className="skill group  ">
         <h1 className="py-2 font-Roboto font-thin md:text-2xl text-xl">
           Python
         </h1>
@@ -118,7 +118,7 @@ function Tech() {
           </span>
         </div>
       </div>
-      <div className="rounded-xl group relative overflow-hidden flex-col-reverse py-4 px-5 box w-52 flex justify-center items-center  ">
+      <div className="skill group  ">
         <h1 className="py-2 font-Roboto font-thin md:text-2xl text-xl">C++</h1>
         <Image src={"/Tech/c.svg"} width={40} height={40} priority alt="c++" />
         <div className="absolute -bottom-32  group-hover:bottom-0 duration-300 w-full h-full flex justify-center items-center boxs text-white">
@@ -127,7 +127,7 @@ function Tech() {
           </span>
         </div>
       </div>
-      <div className="rounded-xl group relative overflow-hidden flex-col-reverse py-4 px-5 box w-52 flex justify-center items-center  ">
+      <div className="skill group  ">
         <h1 className="py-2 font-Roboto font-thin md:text-2xl text-xl">Java</h1>
         <Image
           src={"/Tech/java-svgrepo-com.svg"}
@@ -142,7 +142,7 @@ function Tech() {
           </span>
         </div>
       </div>
-      <div className="rounded-xl group relative overflow-hidden flex-col-reverse py-4 px-5 box w-52 flex justify-center items-center  ">
+      <div className="skill group  ">
         <h1 className="py-2 font-Roboto font-thin md:text-2xl text-xl">
           NodeJS
         </h1>
